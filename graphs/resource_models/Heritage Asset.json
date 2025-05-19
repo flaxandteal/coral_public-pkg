@@ -20234,6 +20234,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "95a43758-5cf4-11ec-aad0-a87eeabdefba",
+                    "edgeid": "e1e1bf20-96c2-4d1a-80bc-6bdc2d9a1a47",
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "b0108641-218b-482a-8a9b-78c70818fa39"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "95a43755-5cf4-11ec-bba2-a87eeabdefba",
                     "edgeid": "95a46042-5cf4-11ec-9f7a-a87eeabdefba",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
@@ -21992,64 +22001,15 @@
                 {
                     "config": {
                         "triggering_nodegroups": [
-                            "e71df5cc-3aad-11ef-a2d0-0242ac120003"
-                        ]
-                    },
-                    "function_id": "dc23eb7a-a291-410c-9a3c-b867bf55ff30",
-                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "7eac663c-f826-46e2-b9a4-127b9ed159a0"
-                },
-                {
-                    "config": {
-                        "triggering_nodegroups": [
-                            "93199292-fb24-11ee-838d-0242ac190006",
-                            "20017860-d711-11ee-9dd0-0242ac120006",
-                            "345ffce6-d23e-11ee-9ae7-0242ac180006"
-                        ]
-                    },
-                    "function_id": "3211cb7d-2629-4eaf-94e7-1a371fabca5f",
-                    "graph_id": "8d41e49e-a250-11e9-9eab-00224800b26d",
-                    "id": "6a3a5e8c-7d17-4a69-b0f8-4590b5043627"
-                },
-                {
-                    "config": {
-                        "triggering_nodegroups": [
+                            "676d47f9-9c1c-11ea-9aa0-f875a44e0e11",
+                            "e71df5cc-3aad-11ef-a2d0-0242ac120003",
+                            "ce85b994-3f5f-11ef-b9b0-0242ac140006",
                             "325a2f2f-efe4-11eb-9b0c-a87eeabdefba"
                         ]
                     },
-                    "function_id": "9e34b9df-b098-4faf-a833-a84611e41009",
+                    "function_id": "e7362891-3b9a-46a9-a39d-2f03222771c4",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "e05bfc40-4880-4e5d-9895-940aa5e98777"
-                },
-                {
-                    "config": {
-                        "triggering_nodegroups": [
-                            "de6b6af0-44e3-11ef-9114-0242ac120006"
-                        ]
-                    },
-                    "function_id": "23d758a1-cc04-414d-bb4d-49f2d5c82930",
-                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "b0578f11-4681-4824-83cc-5366867766f9"
-                },
-                {
-                    "config": {
-                        "triggering_nodegroups": [
-                            "86c19e92-3ea7-11ef-818b-0242ac140006"
-                        ]
-                    },
-                    "function_id": "b80802e5-c176-4334-8d76-6a033579fd02",
-                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "2930e8e6-9296-4614-b747-62d557711dc4"
-                },
-                {
-                    "config": {
-                        "triggering_nodegroups": [
-                            "9b884c9c-49a4-11ef-8345-0242ac120007"
-                        ]
-                    },
-                    "function_id": "2d0a0e51-0a20-443f-85cf-7ddc333c0cdd",
-                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "bfcf28c3-90f6-49f6-8836-3f4351c714a5"
+                    "id": "6b178d0e-389c-4887-ad56-e29579af15eb"
                 },
                 {
                     "config": {
@@ -22072,57 +22032,6 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
                     "id": "6788c40b-344d-45a1-9893-9228520d32d5"
-                },
-                {
-                    "config": {
-                        "triggering_nodegroups": [
-                            "e71df5cc-3aad-11ef-a2d0-0242ac120003"
-                        ]
-                    },
-                    "function_id": "ea081ee0-6796-480c-bba4-2b8daaac660f",
-                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "93ded95b-f37e-4b8d-be29-932341fab38e"
-                },
-                {
-                    "config": {
-                        "triggering_nodegroups": [
-                            "676d47f9-9c1c-11ea-9aa0-f875a44e0e11",
-                            "e71df5cc-3aad-11ef-a2d0-0242ac120003",
-                            "ce85b994-3f5f-11ef-b9b0-0242ac140006",
-                            "325a2f2f-efe4-11eb-9b0c-a87eeabdefba"
-                        ]
-                    },
-                    "function_id": "e7362891-3b9a-46a9-a39d-2f03222771c4",
-                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "6b178d0e-389c-4887-ad56-e29579af15eb"
-                },
-                {
-                    "config": {
-                        "geojson_node": "87d3d7dc-f44f-11eb-bee9-a87eeabdefba",
-                        "geojson_nodegroup": "87d3872b-f44f-11eb-bd0c-a87eeabdefba",
-                        "tm65_node": "2fdedbd0-1459-11ef-8cdd-0242ac120006",
-                        "tm65_nodegroup": "87d39b2b-f44f-11eb-af5e-a87eeabdefba",
-                        "triggering_nodegroups": [
-                            "87d39b2b-f44f-11eb-af5e-a87eeabdefba"
-                        ]
-                    },
-                    "function_id": "e83afc88-4c6a-40f1-9490-55c62b2912c2",
-                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "79e94760-55e6-465f-bfb0-980bd957f8ed"
-                },
-                {
-                    "config": {
-                        "geojson_input_node": "87d3d7dc-f44f-11eb-bee9-a87eeabdefba",
-                        "geojson_input_nodegroup": "87d3872b-f44f-11eb-bd0c-a87eeabdefba",
-                        "tm65_output_node": "2fdedbd0-1459-11ef-8cdd-0242ac120006",
-                        "tm65_output_nodegroup": "87d39b2b-f44f-11eb-af5e-a87eeabdefba",
-                        "triggering_nodegroups": [
-                            "87d3872b-f44f-11eb-bd0c-a87eeabdefba"
-                        ]
-                    },
-                    "function_id": "561abd7c-69ab-4240-ae5b-d12b11d4ec91",
-                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                    "id": "b4f0a3de-5044-4b4d-b3f8-0391948f3c86"
                 }
             ],
             "graphid": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
@@ -35320,6 +35229,36 @@
                     "sourcebranchpublication_id": null
                 },
                 {
+                    "alias": "related_archive_source",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "b07cfa6f-894d-11ea-82aa-f875a44e0e11",
+                                "name": "Archive Source"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Archive Source",
+                    "nodegroup_id": "95a43755-5cf4-11ec-bba2-a87eeabdefba",
+                    "nodeid": "b0108641-218b-482a-8a9b-78c70818fa39",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
                     "alias": "sign_off_date",
                     "config": {
                         "en": ""
@@ -39986,7 +39925,7 @@
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
-                    "fieldname": "Legacy Data",
+                    "fieldname": "LegacyData",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
                     "hascustomalias": false,
                     "is_collector": true,
