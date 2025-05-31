@@ -63,7 +63,10 @@ class GenerateHertiageAssetNameFunction(BaseFunction):
             ha_display_name_tile = Tile.get_blank_tile_from_nodegroup_id(
                 HA_DISPLAY_NAME_NODEGROUP_ID, resourceid=resource_instance_id
             )
-            ha_display_name_tile.save()
+            try:
+                ha_display_name_tile.save()
+            except Exception as e:
+                print(e)
         return ha_display_name_tile
 
     def get_ha_system_reference_tile(self, resource_instance_id):
@@ -91,7 +94,10 @@ class GenerateHertiageAssetNameFunction(BaseFunction):
         if self.get_localised_string_value(tile, HA_DISPLAY_NAME_NODE_ID) == name:
             return
         tile.data[HA_DISPLAY_NAME_NODE_ID] = self.value_as_localised_string(name)
-        tile.save()
+        try:
+            tile.save()
+        except Exception as e:
+            print(e)
 
     def post_save(self, tile, request, context):
         if context and context.get('escape_function', False):

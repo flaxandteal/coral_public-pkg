@@ -204,7 +204,10 @@ class BNGPointToGeoJSON(BaseFunction):
             sql = """
                     SELECT * FROM refresh_geojson_geometries();
                 """
-            cursor.execute(sql)  #
+            try:
+                cursor.execute(sql)  #
+            except Exception as e:
+                print("Could not refresh BNG", e)
 
         else:
             pass

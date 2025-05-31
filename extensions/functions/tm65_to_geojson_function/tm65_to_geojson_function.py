@@ -159,7 +159,10 @@ class TM65PointToGeoJSON(BaseFunction):
             sql = """
                     SELECT * FROM refresh_geojson_geometries();
                 """
-            cursor.execute(sql)  #
+            try:
+                cursor.execute(sql)  #
+            except Exception as e:
+                print("Could not refresh TM65", e)
 
         else:
             pass
